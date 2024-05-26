@@ -3,38 +3,40 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Header from "./_components/modules/Header/Header";
 
-const yekanbakh = localFont({
+const dana = localFont({
     src: [
         {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-Thin.woff",
-            weight: "100",
-        },
-        {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-Light.woff",
-            weight: "300",
-        },
-        {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-Regular.woff",
+            path: "../public/fonts/Dana/woff2/DanaFaNum-Regular.woff2",
             weight: "400",
         },
         {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-SemiBold.woff",
+            path: "../public/fonts/Dana/woff2/DanaFaNum-Medium.woff2",
+            weight: "500",
+        },
+        {
+            path: "../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2",
             weight: "600",
-        },
-        {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-Bold.woff",
-            weight: "700",
-        },
-        {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-ExtraBold.woff",
-            weight: "800",
-        },
-        {
-            path: "../public/fonts/YekanBakh/woff/YekanBakh-Black.woff",
-            weight: "900",
-        },
+        }
     ],
-    variable: "--font-yekanbakh",
+    variable: "--font-dana",
+    weight: "500",
+});
+const morabba = localFont({
+    src: [
+        {
+            path: "../public/fonts/Morabba/woff2/Morabba-Light.woff2",
+            weight: "300",
+        },
+        {
+            path: "../public/fonts/Morabba/woff2/Morabba-Medium.woff2",
+            weight: "500",
+        },
+        {
+            path: "../public/fonts/Morabba/woff2/Morabba-Bold.woff2",
+            weight: "700",
+        }
+    ],
+    variable: "--font-morabba",
     weight: "500",
 });
 export const metadata: Metadata = {
@@ -48,8 +50,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" className="font-">
-            <body className={yekanbakh.variable}>
+        <html lang="fa" dir="rtl">
+            <body className={`${dana.variable} ${morabba.variable}`}>
                 <Header />
                 {children}
             </body>

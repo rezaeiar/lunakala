@@ -14,8 +14,12 @@ const config: Config = {
         },
         extend: {
             fontFamily: {
-                yekanbakh: ["var(--font-yekanbakh)"],
+                dana: ["var(--font-dana)"],
+                morabba: ["var(--font-morabba)"],
             },
+            colors: {
+                primary: '#2962ff'
+            }
         },
     },
     plugins: [],

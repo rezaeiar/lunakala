@@ -13,6 +13,9 @@ const config: Config = {
             screens: {}
         },
         extend: {
+            fontFamily: {
+                yekanbakh: ["var(--font-yekanbakh)"],
+            },
         },
     },
     plugins: [],

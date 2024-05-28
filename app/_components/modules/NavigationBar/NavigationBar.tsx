@@ -4,21 +4,21 @@ import DesktopSearchBox from '../DesktopSearchBox/DesktopSearchBox'
 
 export default function NavigationBar() {
     return (
-        <div className='pt-4'>
+        <div className='pt-3 md:pt-4'>
             <div className="container">
                 <div className="flex flex-col">
                     <div className="flex justify-between items-center">
-                        <div className="flex gap-6 lg:gap-8">
+                        <div className="flex justify-between md:justify-start w-full md:w-auto gap-6 lg:gap-8">
                             <div className="flex xl:hidden items-center text-gray-600">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                 </svg>
                             </div>
-                            <Link href="/" className="flex items-center gap-2 font-bold font-morabba">
-                                <div className="flex h-10 w-10 rounded-md bg-primary text-white text-lg items-center justify-center">
+                            <Link href="/" className="flex items-center gap-1 md:gap-2 font-bold font-morabba">
+                                <div className="flex h-8 md:h-10 w-8 md:w-10 rounded-md bg-primary text-white text-lg items-center justify-center">
                                     ل
                                 </div>
-                                <div className="text-2xl">
+                                <div className="text-xl md:text-2xl">
                                     <span className='text-primary'>
                                         لونا
                                     </span>
@@ -27,9 +27,17 @@ export default function NavigationBar() {
                                     </span>
                                 </div>
                             </Link>
+                            <Link href='/' className="flex md:hidden items-center gap-1 text-black">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75" />
+                                </svg>
+                                <span className='text-xs font-dana'>
+                                    ورود
+                                </span>
+                            </Link>
                             <DesktopSearchBox />
                         </div>
-                        <div className="flex gap-4 lg:gap-6">
+                        <div className="gap-4 lg:gap-6 hidden md:flex">
                             <Link href='/account/login' className="flex divide-x-reverse divide-gray-900 rounded-md border border-gray-300 font-dana">
                                 <div className="my-1.5 px-4 text-gray-800 border-l border-gray-800 text-sm lg:text-base">
                                     ورود

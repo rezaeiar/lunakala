@@ -1,11 +1,12 @@
 "use client"
 import React, { useState } from 'react'
+import PopularSearch from '../PopularSearch/PopularSearch'
 
 export default function MobileSearchBox() {
 
     const [isFoucs, setIsFoucs] = useState(false)
     return (
-        <div className={`${isFoucs ? "bg-white fixed top-0 left-0 w-full h-full p-4" : ''} flex md:hidden grow`}>
+        <div className={`${isFoucs ? "bg-white fixed top-0 left-0 w-full h-full p-4" : ''} flex flex-col gap-4 md:hidden grow divide-y`}>
             <div className="flex items-center gap-2 w-full h-fit">
                 <div className={`bg-gray-100 transition-colors flex rounded-md h-9 relative z-30 w-full`}>
 
@@ -32,6 +33,17 @@ export default function MobileSearchBox() {
                         </svg>
                     </div>
                 }
+            </div>
+            <div className={`${isFoucs ? 'flex' : 'hidden'} pt-4 gap-4 flex-col`}>
+                <h6 className='text-gray-900 font-dana font-bold text-sm'>
+                    جستجو های محبوب
+                </h6>
+                <div className="flex gap-2">
+                    <PopularSearch search='سامسونگ' />
+                    <PopularSearch search='گلکسی A55' />
+                    <PopularSearch search='موبایل' />
+                    <PopularSearch search='ایسوز' />
+                </div>
             </div>
         </div>
     )

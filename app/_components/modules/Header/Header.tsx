@@ -5,7 +5,7 @@ import NavigationBar from '../NavigationBar/NavigationBar'
 export default function Header() {
     return (
         <header>
-            <div className="">
+            <div>
                 <FestivalBanner />
                 <NavigationBar />
             </div>

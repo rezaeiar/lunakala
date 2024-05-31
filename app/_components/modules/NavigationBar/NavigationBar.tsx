@@ -5,7 +5,7 @@ import MobileSearchBox from '../MobileSearchBox/MobileSearchBox'
 
 export default function NavigationBar() {
     return (
-        <div className='pt-3 md:pt-4'>
+        <div className='py-3 md:py-4 border-b '>
             <div className="container">
                 <div className="flex flex-col gap-3">
                     <div className="flex justify-between items-center">
@@ -63,6 +63,44 @@ export default function NavigationBar() {
                         </Link>
                     </div>
                 </div>
+                <ul className="hidden lg:flex pt-5 items-center gap-5 font-dana font-semibold text-gray-600 text-xs">
+                    <li>
+                        موبایل
+                    </li>
+                    <li>
+                        لپتاپ
+                    </li>
+                    <li>
+                        هدفون
+                    </li>
+                    <li>
+                        تبلت
+                    </li>
+                    <li>
+                        طلا و جواهر
+                    </li>
+                    <li>
+                        ساعت و بند هوشمند
+                    </li>
+                    <li>
+                        گیمینگ
+                    </li>
+                    <li>
+                        صوتی و تصویری
+                    </li>
+                    <li>
+                        شبکه سازی و ذخیره
+                    </li>
+                    <li>
+                        صوتی و تصویری
+                    </li>
+                    <li>
+                        لوازم خانگی
+                    </li>
+                    <Link href='' className='text-primary ps-5 border-s border-gray-300'>
+                        فروشنده شو
+                    </Link>
+                </ul>
             </div>
         </div>
     )

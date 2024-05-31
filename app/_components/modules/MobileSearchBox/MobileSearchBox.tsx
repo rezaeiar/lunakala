@@ -6,7 +6,7 @@ import SearchedItem from '../SearchedItem/SearchedItem'
 export default function MobileSearchBox() {
 
     const [isFoucs, setIsFoucs] = useState(false)
-    const [searchedValue, setSearchedValue] = useState("خیار")
+    const [searchedValue, setSearchedValue] = useState("")
     return (
         <div className={`${isFoucs ? "bg-white fixed top-0 left-0 w-full h-full p-4" : ''} flex flex-col gap-4 md:hidden grow divide-y`}>
             <div className="flex items-center gap-2 w-full h-fit">

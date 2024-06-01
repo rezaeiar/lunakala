@@ -4,7 +4,7 @@ import NavigationBar from '../NavigationBar/NavigationBar'
 
 export default function Header() {
     return (
-        <header>
+        <header className='sticky top-0 z-50'>
             <div>
                 <FestivalBanner />
                 <NavigationBar />

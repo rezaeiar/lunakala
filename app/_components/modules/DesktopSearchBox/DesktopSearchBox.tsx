@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react'
+import DesktopSearchResult from '../DesktopSearchResult/DesktopSearchResult'
 
 export default function DesktopSearchBox() {
 
@@ -24,7 +25,7 @@ export default function DesktopSearchBox() {
                 />
                 {
                     isFoucs &&
-                    <div className="h-20 w-full absolute top-12 lg:top-14 bg-white cursor-pointer z-30 rounded-md"></div>
+                    <DesktopSearchResult search={searchedValue} />
                 }
             </div>
         </div>

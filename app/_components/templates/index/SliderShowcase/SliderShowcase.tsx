@@ -8,10 +8,9 @@ import Image from 'next/image';
 
 export default function SliderShowcase() {
     return (
-        <div className="">
+        <div className="mb-6">
             <Swiper
                 cssMode={true}
-                // direction={'vertical'}
                 navigation={true}
                 pagination={true}
                 mousewheel={true}

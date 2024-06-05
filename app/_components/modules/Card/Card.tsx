@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Card() {
     return (
-        <div className='flex flex-col w-52 items-center gap-4 pt-8 relative'>
+        <div className='flex flex-col w-56 items-center gap-4 pt-8 relative'>
             <div className="absolute top-0 flex justify-between items-center w-full text-sm font-bold text-secondary font-dana pb-2 before:h-1 before:rounded-full before:w-full before:bg-secondary before:bottom-0 before:absolute">
                 <span>
                     فروش ویژه
@@ -13,7 +13,7 @@ export default function Card() {
                     14:48:13
                 </span>
             </div>
-            <Link href={''} className="w-44">
+            <Link href={''} className="w-48">
                 <Image
                     src={'/images/product/p2.webp'}
                     alt='festival-banner'

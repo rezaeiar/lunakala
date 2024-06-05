@@ -1,6 +1,11 @@
+"use client"
 import Card from '@/app/_components/modules/Card/Card'
 import Link from 'next/link'
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 export default function Discounts() {
     return (
@@ -23,8 +28,31 @@ export default function Discounts() {
                             </svg>
                         </Link>
                     </div>
-                    <div className="">
-                        <Card />
+                    <div className="px-10">
+                        <Swiper
+                            slidesPerView={'auto'}
+                            spaceBetween={80}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide className='!w-fit'>
+                                <Card />
+                            </SwiperSlide>
+                            <SwiperSlide className='!w-fit'>
+                                <Card />
+                            </SwiperSlide>
+                            <SwiperSlide className='!w-fit'>
+                                <Card />
+                            </SwiperSlide>
+                            <SwiperSlide className='!w-fit'>
+                                <Card />
+                            </SwiperSlide>
+                            <SwiperSlide className='!w-fit'>
+                                <Card />
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </div>
             </div>

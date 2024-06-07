@@ -5,7 +5,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
 
 export default function Discounts() {
     return (
@@ -13,10 +12,10 @@ export default function Discounts() {
             <div className="container">
                 <div className="border-4 border-secondary rounded-2xl p-3 flex flex-col gap-6">
                     <div className="grid grid-cols-3 bg-secondary py-3 px-4 rounded-md items-center">
-                        <div className='text-white text-sm font-bold font-dana'>
+                        <div className='text-white text-sm font-bold font-dana cursor-default'>
                             تخفیفات رو از دست نده
                         </div>
-                        <h5 className='text-2xl text-white font-morabba font-bold flex justify-center'>
+                        <h5 className='text-2xl text-white font-morabba font-bold flex justify-center cursor-default'>
                             لونآف
                         </h5>
                         <Link href='/' className="flex items-center gap-0.5 text-white justify-end">

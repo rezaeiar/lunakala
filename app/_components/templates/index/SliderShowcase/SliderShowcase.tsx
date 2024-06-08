@@ -9,8 +9,8 @@ import Image from 'next/image';
 
 export default function SliderShowcase() {
     return (
-        <div className="mb-6 relative select-none group">
-            <div className="absolute bottom-10 right-10 invisible opacity-0 flex transition-all gap-2 items-center z-20 group-hover:visible group-hover:opacity-100">
+        <div className="mb-4 md:mb-6 relative select-none group overflow-hidden">
+            <div className="absolute bottom-10 right-10 invisible opacity-0 hidden md:flex transition-all gap-2 items-center z-20 group-hover:visible group-hover:opacity-100">
                 <div className="new-releases-prev border-gray-400 bg-gray-100 rounded-full h-10 w-10 flex items-center justify-center cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5 text-gray-600">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
@@ -22,7 +22,7 @@ export default function SliderShowcase() {
                     </svg>
                 </div>
             </div>
-            <div id="showcase-pagination" className='z-20 absolute bottom-0 w-full h-10 flex items-center gap-2 justify-center'></div>
+            <div id="showcase-pagination" className='z-20 absolute bottom-0 w-full h-8 md:h-10 flex items-center gap-2 justify-center'></div>
             <Swiper
                 modules={[Navigation, Pagination, Autoplay, EffectFade]}
                 autoplay={{
@@ -45,46 +45,42 @@ export default function SliderShowcase() {
                 }}
             >
                 <SwiperSlide>
-                    <div className="">
+                    <div className="hidden md:block">
                         <Image
                             src={'/images/banner/b2.webp'}
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full h-96 object-cover'
+                            className='w-full h-72 lg:h-96 object-cover'
                         />
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="">
+                    <div className="block md:hidden">
                         <Image
-                            src={'/images/banner/b1.webp'}
+                            src={'/images/banner/banner_SlideBannerMobile_hmmQf1_07ce70f0-0baf-4d4c-a1ba-241e6931bbe1.png'}
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full h-96 object-cover'
+                            className='w-full'
                         />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="">
+                    <div className="hidden md:block">
                         <Image
                             src={'/images/banner/b2.webp'}
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full h-96 object-cover'
+                            className='w-full h-72 lg:h-96 object-cover'
                         />
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="">
+                    <div className="block md:hidden">
                         <Image
-                            src={'/images/banner/b1.webp'}
+                            src={'/images/banner/banner_SlideBannerMobile_MntCxz_81dc960e-b3cd-4291-a8a5-ca89345f3ea2.png'}
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full h-96 object-cover'
+                            className='w-full'
                         />
                     </div>
                 </SwiperSlide>

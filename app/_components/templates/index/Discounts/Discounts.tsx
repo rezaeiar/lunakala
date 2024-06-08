@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 export default function Discounts() {
     return (
-        <div>
+        <div className='mb-4 md:mb-6'>
             <div className="container">
                 <div className="border-4 border-secondary rounded-2xl p-3 flex flex-col gap-6">
                     <div className="grid grid-cols-3 bg-secondary py-3 px-4 rounded-md items-center">

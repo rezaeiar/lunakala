@@ -47,11 +47,11 @@ export default function SliderShowcase() {
                 <SwiperSlide>
                     <div className="hidden md:block">
                         <Image
-                            src={'/images/banner/b2.webp'}
+                            src={'/images/banner/b1.webp'}
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full h-72 lg:h-96 object-cover'
+                            className='w-full object-cover'
                         />
                     </div>
                     <div className="block md:hidden">
@@ -71,7 +71,7 @@ export default function SliderShowcase() {
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full h-72 lg:h-96 object-cover'
+                            className='w-full object-cover'
                         />
                     </div>
                     <div className="block md:hidden">

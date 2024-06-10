@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 import Header from "./_components/modules/Header/Header";
+import Footer from "./_components/modules/Footer/Footer";
 
 const dana = localFont({
     src: [
@@ -54,6 +55,7 @@ export default function RootLayout({
             <body className={`${dana.variable} ${morabba.variable}`}>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );

@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 export default function CardBox() {
     return (
-        <div>
+        <div className='mb-12'>
             <div className="container">
                 <div className="flex flex-col border border-gray-200 rounded-2xl p-8 gap-8">
                     <div className="flex justify-between items-center">

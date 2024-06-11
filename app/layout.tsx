@@ -52,7 +52,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="fa" dir="rtl">
-            <body className={`${dana.variable} ${morabba.variable}`}>
+            <body className={`bg-gray-50 ${dana.variable} ${morabba.variable}`}>
                 <Header />
                 {children}
                 <Footer />

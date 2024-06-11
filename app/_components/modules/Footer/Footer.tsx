@@ -1,12 +1,14 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import BackToTop from '../BackToTop/BackToTop'
 
 export default function Footer() {
     return (
-        <footer className='bg-white pt-10'>
+        <footer className='bg-white'>
+
             <div className="container">
-                <div className="flex flex-col">
+                <div className="flex flex-col pt-10 relative">
+                    <BackToTop />
                     <div className="grid grid-cols-6 py-6 gap-4 sm:gap-x-8 gap-y-8">
                         <div className="col-span-6 lg:col-span-3 flex flex-col gap-6">
                             <p className='text-gray-600 font-dana font-semibold relative before:rounded-full before:absolute before:w-1 before:h-full before:bg-primary before:right-0'>

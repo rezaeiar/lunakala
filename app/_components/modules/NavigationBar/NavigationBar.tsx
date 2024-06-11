@@ -17,11 +17,11 @@ export default function NavigationBar() {
                                 </svg>
                             </div>
                             <Link href="/" className="flex items-center gap-1 md:gap-2 font-bold font-morabba">
-                                <div className="flex h-8 md:h-10 w-8 md:w-10 rounded-md bg-blue-700 text-white text-lg items-center justify-center">
+                                <div className="flex h-8 md:h-10 w-8 md:w-10 rounded-md bg-primary text-white text-lg items-center justify-center">
                                     ل
                                 </div>
                                 <div className="text-xl md:text-2xl">
-                                    <span className='text-blue-700'>
+                                    <span className='text-primary'>
                                         لونا
                                     </span>
                                     <span>

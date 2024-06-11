@@ -18,7 +18,7 @@ const config: Config = {
                 morabba: ["var(--font-morabba)"],
             },
             colors: {
-                primary: '#2962ff',
+                primary: '#ffcf40',
                 secondary: '#ff1a34'
             }
         },

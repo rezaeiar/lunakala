@@ -3,6 +3,7 @@ import SliderShowcase from "./_components/templates/index/SliderShowcase/SliderS
 import TripleBanners from "./_components/templates/index/TripleBanners/TripleBanners";
 import FilterBoxes from "./_components/templates/index/FilterBoxes/FilterBoxes";
 import CardBox from "./_components/templates/index/CardBox/CardBox";
+import Blog from "./_components/templates/index/Blog/Blog";
 
 export default function Home() {
     return (
@@ -12,6 +13,7 @@ export default function Home() {
             <TripleBanners />
             <FilterBoxes />
             <CardBox />
+            <Blog />
         </main>
     );
 }

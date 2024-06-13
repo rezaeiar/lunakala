@@ -4,6 +4,7 @@ import TripleBanners from "./_components/templates/index/TripleBanners/TripleBan
 import FilterBoxes from "./_components/templates/index/FilterBoxes/FilterBoxes";
 import CardBox from "./_components/templates/index/CardBox/CardBox";
 import Blog from "./_components/templates/index/Blog/Blog";
+import FullWidthBanner from "./_components/templates/index/FullWidthBanner/FullWidthBanner";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
             <TripleBanners />
             <FilterBoxes />
             <CardBox />
+            <FullWidthBanner />
             <Blog />
         </main>
     );

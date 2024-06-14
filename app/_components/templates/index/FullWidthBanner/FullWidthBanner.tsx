@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-export default function gi() {
+export default function FullWidthBanner() {
     return (
         <div className='mb-12'>
             <Link href={''} className="hidden md:block">

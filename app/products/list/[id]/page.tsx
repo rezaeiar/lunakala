@@ -1,7 +1,11 @@
-import React from 'react'
+import Breadcrumb from '@/app/_components/modules/Breadcrumb/Breadcrumb'
+import Suggestion from '@/app/_components/templates/list/Suggestion/Suggestion'
 
 export default function page() {
     return (
-        <div>page</div>
+        <div>
+            <Breadcrumb />
+            <Suggestion />
+        </div>
     )
 }

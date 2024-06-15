@@ -14,12 +14,13 @@ export default function FullWidthBanner() {
                 />
             </Link>
             <div className="container block md:hidden">
-                <Link href={''} className="rounded-md overflow-hidden">
+                <Link href={''} className="">
                     <Image
                         src={'/images/banner/fwm.png'}
                         alt='full-width-banner'
                         width={2000}
                         height={800}
+                        className='rounded-md'
                     />
                 </Link>
             </div>

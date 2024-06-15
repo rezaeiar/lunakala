@@ -51,7 +51,7 @@ export default function SliderShowcase() {
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full object-cover'
+                            className='h-80 w-full object-cover'
                         />
                     </div>
                     <div className="block md:hidden">
@@ -71,7 +71,7 @@ export default function SliderShowcase() {
                             alt='festival-banner'
                             width={5000}
                             height={5000}
-                            className='w-full object-cover'
+                            className='h-80 w-full object-cover'
                         />
                     </div>
                     <div className="block md:hidden">

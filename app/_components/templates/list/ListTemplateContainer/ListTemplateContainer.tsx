@@ -1,10 +1,11 @@
+import Card from '@/app/_components/modules/Card/Card'
 import React from 'react'
 
 export default function ListTemplateContainer() {
     return (
         <div className='pb-6'>
             <div className="container">
-                <div className="grid grid-cols-4 h-10 gap-8">
+                <div className="grid grid-cols-4 gap-8">
                     <div className="col-span-1 rounded-md border border-gray-200 flex flex-col">
                         <div className="flex justify-between items-center p-4 text-gray-700 border-b border-gray-100">
                             <div className='flex items-center gap-1 font-bold text-sm font-dana'>
@@ -56,6 +57,11 @@ export default function ListTemplateContainer() {
                             <div className="px-8 py-3 rounded-md bg-blue-500 text-white font-dana font-semibold text-sm">
                                 مقایسه
                             </div>
+                        </div>
+                        <div className="grid grid-cols-3">
+                            <Card />
+                            <Card />
+                            <Card />
                         </div>
                     </div>
                 </div>

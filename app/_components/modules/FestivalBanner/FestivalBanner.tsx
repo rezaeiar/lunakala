@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function FestivalBanner() {
     return (
-        <Link href={'/fs'}>
+        <Link href={'/fs'} className='hidden'>
             <Image
                 src={'/images/festival-banner/banner_TopGifDesktop_Nhibhs_7faa66a4-edc5-43b4-a295-feb75f072891.webp'}
                 alt='festival-banner'

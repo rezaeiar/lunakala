@@ -4,7 +4,7 @@ import { SearchedItemProps } from '@/app/_types/SearchedItem/SearchedItem.types'
 
 export default function SearchedItem({ search }: SearchedItemProps) {
     return (
-        <div className="p-1.5 rounded-md flex items-center gap-3 bg-green-100/50">
+        <div className="p-1.5 rounded-md flex items-center gap-3 bg-secondary/10">
             <div className="h-14 aspect-square">
                 <Image
                     src={'/images/product/p1.webp'}

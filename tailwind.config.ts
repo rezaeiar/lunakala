@@ -18,10 +18,10 @@ const config: Config = {
                 morabba: ["var(--font-morabba)"],
             },
             colors: {
-                primary: '#003C43',
+                primary: '#2962FF',
                 secondary: '#135D66',
                 tertiary: '#77B0AA',
-                fourth: '#E3FEF7'
+                danger: '#FF1A34',
             }
         },
     },

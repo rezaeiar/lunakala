@@ -1,5 +1,6 @@
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
+import Cart from '../Cart/Cart'
 
 export default function CartButton() {
     return (
@@ -10,6 +11,7 @@ export default function CartButton() {
             <div className="bg-danger h-4 w-4 rounded-full flex items-center justify-center text-[10px] text-white font-dana absolute bottom-0.5 right-0.5 pt-0.5">
                 2
             </div>
+            <Cart />
         </Link>
     )
 }

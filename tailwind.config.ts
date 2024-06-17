@@ -22,6 +22,7 @@ const config: Config = {
                 secondary: '#135D66',
                 tertiary: '#77B0AA',
                 danger: '#FF1A34',
+                grass: '#1C9922',
             }
         },
     },

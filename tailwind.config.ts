@@ -23,7 +23,10 @@ const config: Config = {
                 tertiary: '#77B0AA',
                 danger: '#FF1A34',
                 grass: '#1C9922',
-            }
+            },
+            boxShadow: {
+                '3xl': '0px 6px 60px 0px rgba(0,0,0,.2)',
+              }
         },
     },
     plugins: [],

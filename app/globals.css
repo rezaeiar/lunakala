@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(scroll.css);
+
 @layer components {
     .container {
         @apply max-w-full;

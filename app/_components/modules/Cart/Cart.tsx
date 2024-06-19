@@ -25,7 +25,7 @@ export default function Cart() {
                     </Link>
                 </div>
             </div>
-            <div className="h-96 flex flex-col mx-4 overflow-auto divide-y">
+            <div className="h-96 flex flex-col mx-1 px-3 overflow-auto divide-y">
                 <div className="py-6 flex flex-col gap-4">
                     <div className="flex justify-between gap-8">
                         <div className="pt-6 flex flex-col gap-4">

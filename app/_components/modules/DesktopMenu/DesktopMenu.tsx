@@ -3,9 +3,46 @@ import React from 'react'
 
 export default function DesktopMenu() {
     return (
-        <ul className="hidden lg:flex pt-5 items-center gap-5 font-dana font-semibold text-gray-600 text-xs *:cursor-default">
-            <li>
+        <ul className="hidden lg:flex pt-5 items-center gap-5 font-dana font-semibold text-gray-600 text-xs *:cursor-default *:relative">
+            <li className=''>
                 موبایل
+                <div className="absolute top-5 overflow-hidden h-96 right-0 flex shadow-3xl rounded-lg bg-white">
+                    <div className="bg-white px-4 py-8 flex flex-col gap-6">
+                        <div className="flex items-center justify-between w-60 group">
+                            <div className="">
+                                <h2 className='text-base font-dana font-bold text-gray-900'>
+                                    موبایل
+                                </h2>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 text-primary hidden group-hover:block">
+                                <path fillRule="evenodd" d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                            </svg>
+                        </div>
+                        <div className="flex items-center justify-between w-60 group">
+                            <div className="">
+                                <h2 className='text-base font-dana font-bold text-gray-900'>
+                                    لوازم جانبی موبایل
+                                </h2>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 text-primary hidden group-hover:block">
+                                <path fillRule="evenodd" d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                            </svg>
+                        </div>
+                        <div className="flex items-center justify-between w-60 group">
+                            <div className="">
+                                <h2 className='text-base font-dana font-bold text-gray-900'>
+                                    پاد
+                                </h2>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="size-5 text-primary hidden group-hover:block">
+                                <path fillRule="evenodd" d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div className="bg-secondary/10 px-4 py-8">
+
+                    </div>
+                </div>
             </li>
             <li>
                 لپتاپ

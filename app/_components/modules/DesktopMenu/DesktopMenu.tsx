@@ -39,8 +39,77 @@ export default function DesktopMenu() {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-secondary/10 px-4 py-8">
-
+                    <div className="bg-secondary/10 px-4 py-8 flex flex-col gap-6">
+                        <div className="flex items-center gap-1 w-max">
+                            <h5 className='text-gray-700 font-dana'>
+                                قیمت گوشی
+                            </h5>
+                            <span className='text-gray-600 font-dana font-light text-xs'>
+                                (همه محصولات)
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-4">
+                                <path fillRule="evenodd" d="M9.78 4.22a.75.75 0 0 1 0 1.06L7.06 8l2.72 2.72a.75.75 0 1 1-1.06 1.06L5.47 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
+                            </svg>
+                        </div>
+                        <ul className="flex flex-wrap flex-col gap-10">
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                            <li className='text-gray-700 font-dana font-bold w-20'>
+                                سامسونگ
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </li>

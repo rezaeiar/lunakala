@@ -6,7 +6,7 @@ export default function DesktopMenu() {
         <ul className="hidden lg:flex pt-5 items-center gap-5 font-dana font-semibold text-gray-600 text-xs *:cursor-default *:relative">
             <li className=''>
                 موبایل
-                <div className="absolute top-5 overflow-hidden h-96 right-0 flex shadow-3xl rounded-lg bg-white">
+                <div className="absolute hidden top-5 overflow-hidden h-96 right-0 shadow-3xl rounded-lg bg-white">
                     <div className="bg-white px-4 py-8 flex flex-col gap-6">
                         <div className="flex items-center justify-between w-60 group">
                             <div className="">
@@ -51,62 +51,62 @@ export default function DesktopMenu() {
                                 <path fillRule="evenodd" d="M9.78 4.22a.75.75 0 0 1 0 1.06L7.06 8l2.72 2.72a.75.75 0 1 1-1.06 1.06L5.47 8.53a.75.75 0 0 1 0-1.06l3.25-3.25a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" />
                             </svg>
                         </div>
-                        <ul className="flex flex-wrap flex-col gap-10">
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                        <ul className="h-full">
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
-                            <li className='text-gray-700 font-dana font-bold w-20'>
+                            <li className='text-gray-700 font-dana font-bold w-28 mb-6 inline-block'>
                                 سامسونگ
                             </li>
                         </ul>

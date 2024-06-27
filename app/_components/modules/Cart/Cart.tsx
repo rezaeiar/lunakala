@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Cart() {
     return (
-        <div className='absolute flex flex-col justify-between top-10 left-0 bg-white rounded-md shadow-3xl border border-gray-50 opacity-0 invisible transition-all group-hover:opacity-100 group-hover:visible'>
+        <div className='absolute flex flex-col justify-between top-10 left-0 z-50 bg-white rounded-md shadow-3xl border border-gray-50 opacity-0 invisible transition-all group-hover:opacity-100 group-hover:visible'>
             <div className="flex justify-between items-center w-96 bg-gray-50 m-4 rounded p-3">
                 <div className="flex items-center gap-1 font-dana">
                     <h5 className='text-gray-700 font-semibold text-xs'>

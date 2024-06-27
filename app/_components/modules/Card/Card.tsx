@@ -5,9 +5,9 @@ import React from 'react'
 export default function Card() {
     return (
         <>
-            <div className="absolute left-0 h-full my-12 bg-gray-200 w-px"></div>
-            <div className='flex flex-col w-56 items-center gap-4 pt-8 relative'>
-                <div className="absolute top-0 flex justify-between items-center w-full text-sm font-bold text-secondary font-dana pb-2 before:h-1 before:rounded-full before:w-full before:bg-secondary before:bottom-0 before:absolute">
+            <div className="absolute left-0 h-full bg-gray-200 w-px"></div>
+            <div className='flex flex-col w-56 items-center gap-4 pt-8 relative mx-10'>
+                <div className="absolute top-0 flex justify-between items-center w-full text-sm font-bold text-danger font-dana pb-2 before:h-1 before:rounded-full before:w-full before:bg-danger before:bottom-0 before:absolute">
                     <span>
                         فروش ویژه
                     </span>
@@ -15,13 +15,13 @@ export default function Card() {
                         14:48:13
                     </span>
                 </div>
-                <Link href={''} className="w-48">
+                <Link href={''} className="w-36 md:w-48">
                     <Image
                         src={'/images/product/p2.webp'}
                         alt='festival-banner'
                         width={1000}
                         height={1000}
-                        className='hidden md:block w-full object-cover'
+                        className='block w-full object-cover'
                     />
                 </Link>
                 <div className="flex flex-col gap-4">
@@ -37,11 +37,11 @@ export default function Card() {
                         </span>
                     </div>
                     <div className="flex justify-between">
-                        <div className="p-1 pt-1.5 rounded-sm bg-secondary font-dana text-white text-xs h-4 flex items-center mt-1.5">
+                        <div className="p-1 pt-1.5 rounded-sm bg-danger font-dana text-white text-xs h-4 flex items-center mt-1.5">
                             7%
                         </div>
                         <div className="flex flex-col items-end">
-                            <div className="text-secondary font-dana font-bold">
+                            <div className="text-danger font-dana font-bold">
                                 <span className='text-base'>
                                     5,300,000
                                 </span>
